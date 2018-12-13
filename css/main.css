@@ -5,7 +5,7 @@ body {
 nav ul, footer ul {
   font-family: 'Times New Roman';
   padding: 0px;
-  list-style: none;
+  list-style: square inside url("sqpurple.gif");;
   font-weight: none;
 }
 nav ul li, footer ul li {
