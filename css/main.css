@@ -8,8 +8,7 @@ nav ul, footer ul {
   font-weight: bold;
 }
 nav ul li, footer ul li {
-  display: block;
-  list-style-type: disc;
+  display: inline;
   margin-right: 20px;
 }
 a{
