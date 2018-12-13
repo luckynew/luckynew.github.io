@@ -5,11 +5,11 @@ body {
 nav ul, footer ul {
   font-family: 'Times New Roman';
   padding: 2px;
-  list-style-type: disc;
   font-weight: none;
 }
 nav ul li, footer ul li {
   display: inline;
+  list-style-type: disc;
   margin-right: 20px;
 }
 a{
@@ -44,5 +44,6 @@ ul.posts {
 }
 
 ul.posts li {
-    list-style: disc;
+  list-style: square;
+  display: block;
 }
