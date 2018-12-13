@@ -27,6 +27,12 @@ h1{
   font-size: 5em;
   line-height: 3em;
   color: #4169E1;
+  font-family: 'Times New Roman';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
 }
 
 footer {
