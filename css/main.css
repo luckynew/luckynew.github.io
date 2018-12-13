@@ -27,6 +27,12 @@ h1, h3 {
   color: #4169E1;
   font-family: 'Times New Roman';
 }
+h3 {
+  font-size: 3em;
+  line-height: 2em;
+  color: #333;
+  font-family: 'Times New Roman';
+}
 p {
     font-size: 1em;
     line-height: 1.4em;
