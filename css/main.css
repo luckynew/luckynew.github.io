@@ -5,10 +5,10 @@ body {
 nav ul, footer ul {
   font-family: 'Times New Roman';
   padding: 2px;
-  font-weight: none;
+  font-weight: bold;
 }
 nav ul li, footer ul li {
-  display: inline;
+  display: block;
   list-style-type: disc;
   margin-right: 20px;
 }
@@ -39,11 +39,10 @@ footer {
     font-size: 1em;
 }
 ul.posts { 
-    margin: 20px auto 40px; 
+    margin: 20px auto 30px; 
     font-size: 1em;
 }
 
 ul.posts li {
-  list-style: square;
-  display: block;
+  list-style: none;
 }
