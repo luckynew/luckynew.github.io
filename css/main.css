@@ -23,18 +23,19 @@ a:hover {
 
 h1 {
   font-size: 5em;
-  line-height: 3em;
+  line-height: 1.5em;
   color: #4169E1;
   font-family: 'Times New Roman';
 }
 h3 {
   font-size: 1.5em;
+  line-heigt:1em
   color: #333;
   font-family: 'Times New Roman';
 }
 p {
     font-size: 1em;
-    line-height: 1.4em;
+    line-height: 1em;
     color: #333;
 }
 
