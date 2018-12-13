@@ -21,7 +21,7 @@ a:hover {
   text-decoration: underline;
 }
 
-h1{
+h1, h3 {
   font-size: 5em;
   line-height: 3em;
   color: #4169E1;
