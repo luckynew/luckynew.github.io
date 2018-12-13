@@ -4,14 +4,14 @@ body {
 }
 nav ul, footer ul {
   font-family: 'Times New Roman';
-  padding: 0px;
+  padding: 2px;
   list-style: none;
-  list-style-type: disc;
+  list-style-type: none;
   font-weight: none;
 }
 nav ul li, footer ul li {
   display: inline;
-  margin-right: 20px
+  margin-right: 20px;
 }
 a{
   text-decoration: none;
