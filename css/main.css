@@ -9,6 +9,16 @@ nav ul {
   position: absolute;
   top: 110px;
 }
+nav ul li ul{
+	diaplay:none;
+	position:absolute;
+	width:100px;
+}
+
+nav ul li ul li { 
+  background: #555; 
+  display: block; 
+}
 footer ul{
 	font-family: 'Times New Roman';
 	font-weight: bold;
@@ -16,6 +26,7 @@ footer ul{
 	top:90%;
 	
 }
+
 nav ul li, footer ul li {
   display:inline;
   margin-right: 20px;
