@@ -8,7 +8,7 @@ nav ul, footer ul {
   font-weight: bold;
 }
 nav ul li, footer ul li {
-  display: inline;
+  display:inline;
   margin-right: 20px;
 }
 a{
@@ -22,19 +22,19 @@ a:hover {
 }
 
 h1 {
-  font-size:10px;
-  line-height: 3px;
+  font-size:3em;
+  line-height: 3em;
   color: #4169E1;
   font-family: 'Times New Roman';
 }
 h3 {
-  font-size: 5px;
-  line-heigt:2px;
+  font-size: 1em;
+  line-heigt:1em;
   color: rgb(0,0,0);
   font-family: 'Times New Roman';
 }
 p {
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1em;
     color: #000000;
 	font-family: 'Times New Roman';
