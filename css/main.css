@@ -9,6 +9,13 @@ nav ul, footer ul {
   position: absolute;
   top: 100px;
 }
+footer ul{
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	position: absolute;
+	top: 100px;
+	
+}
 nav ul li, footer ul li {
   display:inline;
   margin-right: 20px;
