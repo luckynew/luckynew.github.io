@@ -22,7 +22,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 2em;
+  font-size:5px;
   line-height: 1.5em;
   color: #4169E1;
   font-family: 'Times New Roman';
@@ -34,9 +34,10 @@ h3 {
   font-family: 'Times New Roman';
 }
 p {
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1em;
     color: #333;
+	font-family: 'Times New Roman';
 }
 
 footer {
