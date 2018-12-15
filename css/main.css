@@ -19,6 +19,7 @@ footer ul{
 nav ul li, footer ul li {
   display:inline;
   margin-right: 20px;
+  font-size: 40px;
 }
 a{
   text-decoration: none;
@@ -30,7 +31,7 @@ a:hover {
 }
 
 h1 {
-  font-size:20px;
+  font-size:30px;
   line-height: 10px;
   color: DodgerBlue;
   font-family: 'Times New Roman';
@@ -43,7 +44,7 @@ h3 {
   font-family: 'Times New Roman';
 }
 p {
-    font-size: 10px;
+    font-size: 20px;
     line-height: 5px;
     color: #000000;
 	font-family: 'Times New Roman';
