@@ -22,14 +22,14 @@ a:hover {
 }
 
 h1 {
-  font-size:1.5em;
-  line-height: 1.5em;
+  font-size:10px;
+  line-height: 3px;
   color: #4169E1;
   font-family: 'Times New Roman';
 }
 h3 {
-  font-size: 1em;
-  line-heigt:1em
+  font-size: 5px;
+  line-heigt:2px;
   color: rgb(0,0,0);
   font-family: 'Times New Roman';
 }
