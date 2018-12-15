@@ -10,7 +10,7 @@ nav ul {
   top: 110px;
 }
 nav ul li ul{
-	diaplay:none;
+	display:none;
 	position:absolute;
 	width:100px;
 }
