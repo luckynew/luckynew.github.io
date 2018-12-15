@@ -7,7 +7,7 @@ nav ul, footer ul {
   padding: 2px;
   font-weight: bold;
   positions: absolute;
-  top: 100
+  top: 100px;
 }
 nav ul li, footer ul li {
   display:inline;
