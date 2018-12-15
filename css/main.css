@@ -19,6 +19,9 @@ nav ul li ul li {
   background: #555; 
   display: block; 
 }
+nav ul li ul li a {display:block !important;}
+
+nav ul li ul li:hover {background: #666;}
 footer ul{
 	font-family: 'Times New Roman';
 	font-weight: bold;
