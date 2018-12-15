@@ -13,7 +13,7 @@ footer ul{
 	font-family: 'Times New Roman';
 	font-weight: bold;
 	position: absolute;
-	top: 100px;
+	bottom: 0px;
 	
 }
 nav ul li, footer ul li {
