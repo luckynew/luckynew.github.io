@@ -13,7 +13,7 @@ footer ul{
 	font-family: 'Times New Roman';
 	font-weight: bold;
 	position: absolute;
-	bottom: 90%;
+	
 }
 nav ul li, footer ul li {
   display:inline;
@@ -34,6 +34,9 @@ h1 {
   line-height: 1.5em;
   color: #4169E1;
   font-family: 'Times New Roman';
+}
+nav p {
+	
 }
 h3 {
   font-size: 1em;
