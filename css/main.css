@@ -1,7 +1,7 @@
 body {
   margin: 0,auto;
   width: 100%;
-  background-color: #f4f4f4;
+  background-color: rgb(200,200,220);
   color: #555;
   font-family: Arial,Helvetica, Times New Roman;
   font-size: 16px;
@@ -78,9 +78,9 @@ body {
   font-family: Times New Roman;
 }
 #lower-image{
-  background-image: url('../images/life/universe.jpg'); 
+  background-image: url('../images/life/6.jpg'); 
   background-position: center;
-  height: 100% ;
+  min-height: 100% ;
   margin-bottom: 30px;
   text-align: center;
   transform: rotate(0deg);
