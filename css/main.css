@@ -1,25 +1,89 @@
 body {
-  margin: 20px auto;
-  width: 90%;
-  
+  margin: 0,auto;
+  width: 100%;
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: Arial,Helvetica, Times New Roman;
+  font-size: 16px;
+  line-height: 1.5em;  
 }
 
-nav ul {
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+#main-header{
+  background-color: lightblue;
+  color: #fff;
+  height: 80px;
+}
+#main-header h1 {
+  font-size: 2em;
+  line-height: 1em;
+  color: blue;/*4169E1;*/
+  font-family: 'Times New Roman';
+}
+
+.nav-image {
+  background-image: url("../images/picture/1.gif");
+  background-color: #cccccc;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#navbar{
+  background-color: lightblue;
+  color: #fff;
+}
+#navbar ul {
   font-family: 'Times New Roman';
   padding: 0;
   font-weight: bold;
   margin: 0;
+  list-style: none;
 }
-nav ul li {
-  display: inline-block;
+#showcase{
+  background-image: url('../images/life/6.jpg'); 
+  background-position: center;
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
 }
-
-
-a{
-  text-decoration: none;
-  font-size: 25px;
-  display:inline-block;
-  padding:5px;
+#showcase h1{
+  color: rgb(10,10,250);
+  font-size: 50px;
+  line-height: 1.5em;
+  padding-top: 40px;
+}
+#main{
+  float: left;
+  width:60%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#sidebar{
+  float: right;
+  width:30%;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: pink;
+  box-sizing: border-box;
+}
+#sidebar p{
+  color: rgb(90,70,255);
+  font-size: 30px;
+  font-family: Times New Roman;
+}
+#lower-image{
+  background-image: url('../images/life/universe.jpg'); 
+  background-position: center;
+  min-height: 500px ;
+  margin-bottom: 30px;
+  text-align: center;
+  transform: rotate(0deg);
 
 }
 ul li {display: inline-block;}
@@ -36,16 +100,18 @@ nav ul li ul li {
 }
 nav ul li ul li a {display:block !important;} 
 nav ul li ul li:hover {background: lightgreen;}
+a{
+  text-decoration: none;
+  font-size: 25px;
+  display:inline-block;
+  padding:5px;
+
+}
 a:hover {
   text-decoration: underline;
 }
 
-h1 {
-  font-size: 2em;
-  line-height: 1.5em;
-  color: #4169E1;
-  font-family: 'Times New Roman';
-}
+
 h3 {
   font-size: 1.5em;
   line-heigt:1em
@@ -76,11 +142,3 @@ footer ul li {
   margin-right: 20px;
 }
 
-ul.posts { 
-    margin: 20px auto 30px; 
-    font-size: 1em;
-}
-
-ul.posts li {
-  list-style: none;
-}
