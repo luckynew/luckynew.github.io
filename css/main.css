@@ -14,7 +14,7 @@ body {
   overflow: hidden;
 }
 #main-header{
-  background-color: lightblue;
+  
   color: #fff;
   height: 80px;
 }
@@ -35,7 +35,7 @@ body {
   position: relative;
 }
 #navbar{
-  background-color: lightblue;
+  
   color: #fff;
 }
 #navbar ul {
