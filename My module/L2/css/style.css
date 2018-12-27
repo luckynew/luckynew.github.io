@@ -1,0 +1,151 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-color: #f4f4f4;
+	color:#555; /* dark gray */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal; /*bold or 200 */
+	/* same as above*/
+	font: nomal 16px Arial,Helvetica,sans-serif;
+	margin: 0;
+	line-height: 1.6em;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	padding: 10;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: blue;
+}
+a:visited{
+	color: grey;
+}
+
+.box-1{
+	background-color: #333;
+	color: #fff;
+	border-right: 5px red solid;
+	border-left: 5px red solid;
+	border-top: 5px red solid;
+	border-bottom: 5px red solid;
+	/* same as above */
+	border: 5px red solid;
+	border-bottom-width: 10px;
+	border-top-style: dotted;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	/* same as above*/
+	padding: 20px;
+
+	margin-top: 20px;
+
+}
+.container{
+	width: 85%;
+	margin:auto;
+}
+.clr{
+	clear: both;
+}
+.button{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+}
+.button:hover{
+	background-color: red;
+	color: #fff;
+}
+.box-1 h1{
+	font-family: Tohoma;
+	font-weight: 800;
+	font-style:italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+	margin-bottom: 10px;
+}
+.box-2{
+	border: 3px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+}
+.categories{
+	border: 2px solid #000;
+	border-radius: 15px;
+	padding: 10px 25px;
+}
+.categories h2{
+	text-align: center;
+}
+.categories ul{
+	padding: 0;
+	list-style: none;
+}
+.categories li{
+	padding-bottom: 6px;
+	border-bottom: dashed 1px #000;
+	list-style-image: url("../check.png");
+}
+.my-form{
+	padding: 20px;
+}
+.my-form .form-group{
+	padding-bottom: 10px;
+}
+.my-form label{
+	display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+	padding: 10px;
+	width: 100%;
+}
+
+.block{
+	float: left;
+	width: 33.3%;
+	border: 1px #ccc solid;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#main-block{
+	float: left;
+	width: 70%;
+	box-sizing: border-box;
+	border: 1px #ccc dashed;
+	padding: 15px;
+}
+#side-block{
+	float: right;
+	width: 30%;
+	box-sizing: border-box;
+	background-color: #333;
+	padding:15px;
+	color: #fff;
+}
+.p-box{
+	width: 800px;
+	height: 500px;
+	border: 1px #333 solid;
+	margin-top: 20px;
+	position: relative;
+	background-image: url();
+}
+.p-box h1{
+	position: absolute;
+	top: 200px;
+}
