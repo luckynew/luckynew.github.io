@@ -1,2 +1,2 @@
 # luckynew.github.io
-https://luckynew.github.io
+https://luckynew.github.io/Lisa's-Personal-Website/index.html
