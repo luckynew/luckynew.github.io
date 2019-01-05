@@ -55,9 +55,12 @@ a:visited{
 	width: 85%;
 	margin:auto;
 }
+<<<<<<< HEAD
+=======
 .clr{
 	clear: both;
 }
+>>>>>>> 272fa1b75fb1d56e4359796f199762f338ad7195
 .button{
 	background-color: #333;
 	color: #fff;
@@ -111,6 +114,8 @@ a:visited{
 .my-form input[type="text"], .my-form textarea{
 	padding: 10px;
 	width: 100%;
+<<<<<<< HEAD
+=======
 }
 
 .block{
@@ -175,4 +180,5 @@ a:visited{
 }
 .my-list li:nth-child(even){
 	background: green;
+>>>>>>> 272fa1b75fb1d56e4359796f199762f338ad7195
 }
