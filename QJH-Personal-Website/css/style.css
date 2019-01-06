@@ -52,7 +52,7 @@ header a{
 	font-family: Times New Roman;
 }
 ul, ol{
-	padding-left: 15px;
+	padding-left: 20px;
 	line-height: 1.5em;
 	font-family: times new roman;
 	font-size: 18px;
@@ -109,10 +109,13 @@ header a:hover{
  	margin: auto;
  }
  #boxes .box{
- 	margin-top: 100px;
+ 	margin-top: 50px;
+ 	margin-bottom: 100px;
  	float:left;
  	width: 33.3%;
  	padding: 0px;
+ 	line-height: .5em;
+ 	font-family: times new roman;
  	text-align: center;
  	box-sizing: border-box;
  	!border: 2px red solid;
@@ -133,7 +136,7 @@ header a:hover{
 footer {
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   height: 25px;
   background-color: #000;
