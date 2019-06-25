@@ -10,6 +10,21 @@ body{
 	margin:auto; /* moves everything to the middle*/
 	overflow:hidden;
 }
+.iframe-container{
+	position: relative;
+	width: 90%;
+	margin-left: 15%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	min-height: 400px;
+}
+
+.iframe-container iframe{
+	position: absolute;
+	margin: auto;
+	width: 80%;
+	height: 100%;
+}
 
 /*header*/
 header{
@@ -90,7 +105,7 @@ ul, ol{
  
  /*boxes*/
  #boxes{
- 	margin-top: 20px;
+ 	margin-top: 40px;
  }
  #boxes .box{
  	float:left;
@@ -99,7 +114,7 @@ ul, ol{
  	text-align: center;
  }
  #boxes .box img{
- 	height:90px;
+ 	height: 150px;
  }
 footer {
   position: fixed;
