@@ -12,11 +12,11 @@ body{
 }
 .iframe-container{
 	position: relative;
-	width: 90%;
-	margin-left: 15%;
+	width: 60%;
+	margin-left: 30%;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	min-height: 400px;
+	min-height: 300px;
 }
 
 .iframe-container iframe{
@@ -116,6 +116,7 @@ ul, ol{
  #boxes .box img{
  	height: 150px;
  }
+
 footer {
   position: fixed;
   left: 0;
@@ -134,22 +135,25 @@ footer li {
   color: #fff;
 }
 
- #cv-image{
- 	min-height: 200px;
- 	text-align: center;
- 	color: blue;
- 	background: url("../images/njust-long.jpg") no-repeat center;
- 	background-size: 50%;
- 	position: relative;
- 	margin:0px;
- 	padding: 0px;
- 	background-color: #fff;
- }
-
-#cv-main{
-	float: left;
-	width: 60%
+#index-main{
+	float: right;
+	width: 40%;
+	box-sizing: border-box;
 }
+#index-sidebar{
+	float: center;
+	width: 30%;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+
+#index-sidebar img{
+	height:500px;
+	position: left;
+	margin-left: 15%
+
+}
+
 #cv-dgd{
 	float: right;
 	width: 40%;
@@ -157,6 +161,7 @@ footer li {
 	background-image: url("../images/njust-long.jpg") no-repeat center;
 	border: 2px solid red;
 }
+
 #cv-main{
 	float: left;
 	width: 60%;
